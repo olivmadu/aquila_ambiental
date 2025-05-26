@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUILA - Soluções Ambientais Inovadoras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">AQUILA</div>
+        <div class="nav-menu">
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVIÇOS</a></li>
+                <li><a href="#portfolio">PORTFÓLIO</a></li>
+                <li><a href="#awards">PRÊMIOS</a></li>
+                <li><a href="#testimonials">DEPOIMENTOS</a></li>
+                <li><a href="#about">SOBRE</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">POR UM FUTURO</span>
+                    <span class="title-line">MAIS SUSTENTÁVEL</span>
+                </h1>
+                <p class="hero-subtitle">Transformando desafios ambientais em oportunidades sustentáveis</p>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">NOSSOS SERVIÇOS</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="consulting">
+                    <div class="service-icon"></div>
+                    <h3>Consultoria Ambiental</h3>
+                    <p>Análise e estratégias personalizadas para compliance ambiental</p>
+                </div>
+                <div class="service-card" data-service="consulting">
+                    <div class="service-icon"></div>
+                    <h3>PEAT</h3>
+                    <p>Treinamentos para trabalhadores que se dedicam às atividades embarcadas, de forma on-line e presencial.</p>
+                </div>
+            
+                <div class="service-card" data-service="training">
+                    <div class="service-icon"></div>
+                    <h3>Capacitação</h3>
+                    <p>Programas de treinamento em sustentabilidade e gestão ambiental</p>
+                </div>
+                
+                <div class="service-card" data-service="projects">
+                    <div class="service-icon"></div>
+                    <h3>Projetos Ambientais</h3>
+                    <p>Desenvolvimento e implementação de soluções inovadoras</p>
+                </div>
+
+                <div class="service-card" data-service="projects">
+                    <div class="service-icon"></div>
+                    <h3>Informes Ambientais</h3>
+                    <p>Ajuda a comunidade a se manter informada</p>
+                </div>
+                
+                <div class="service-card" data-service="monitoring">
+                    <div class="service-icon"></div>
+                    <h3>Monitoramento</h3>
+                    <p>Sistemas de acompanhamento e relatórios de impacto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">PORTFÓLIO</h2>
+            <p class="section-subtitle">Conheça nossos projetos e conquistas em detalhes</p>
+        </div>
+        
+        <div class="portfolio-content">
+            <div class="portfolio-info">
+                <div class="portfolio-description">
+                    <h3>Nosso Portfólio Completo</h3>
+                    <p>Explore nossa trajetória de sucesso através de projetos inovadores que transformaram comunidades e ecossistemas. Nosso portfólio apresenta casos detalhados, metodologias aplicadas e resultados mensuráveis de cada iniciativa.</p>
+                    
+                    <div class="portfolio-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-number">50+</div>
+                            <div class="highlight-label">Projetos Concluídos</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">15</div>
+                            <div class="highlight-label">Estados Atendidos</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">100K+</div>
+                            <div class="highlight-label">Hectares Restaurados</div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-actions">
+                        <button class="download-btn" id="download-portfolio">
+                            <span class="btn-icon">📄</span>
+                            BAIXAR PORTFÓLIO PDF
+                        </button>
+                        <button class="view-btn" id="view-portfolio">
+                            <span class="btn-icon">👁️</span>
+                            VISUALIZAR ONLINE
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-viewer">
+                <div class="pdf-container" id="pdf-container">
+                    <div class="pdf-placeholder">
+                        <div class="pdf-icon">📋</div>
+                        <h4>Portfólio AQUILA AMBIENTAL</h4>
+                        <p>Clique em "Visualizar Online" para ver o portfólio completo ou baixe o PDF para acesso offline.</p>
+                        <div class="pdf-info">
+                            <span>📄 32 páginas</span>
+                            <span>📊 15 projetos detalhados</span>
+                            <span>🏆 Certificações e prêmios</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pdf-viewer" id="pdf-viewer" style="display: none;">
+                        <div class="pdf-controls">
+                            <button class="pdf-control-btn" id="pdf-prev">‹</button>
+                            <span class="pdf-page-info">
+                                Página <span id="current-page">1</span> de <span id="total-pages">32</span>
+                            </span>
+                            <button class="pdf-control-btn" id="pdf-next">›</button>
+                            <button class="pdf-control-btn" id="pdf-fullscreen">⛶</button>
+                        </div>
+                        <div class="pdf-content">
+                            <div class="pdf-page">
+                                <div class="page-content">
+                                    <h3>Aquila Ambiental - Portfólio 2024</h3>
+                                    <div class="page-preview">
+                                        <p>Esta é uma prévia do nosso portfólio. O documento completo contém:</p>
+                                        <ul>
+                                            <li>Histórico da empresa e missão</li>
+                                            <li>Projetos de restauração florestal</li>
+                                            <li>Iniciativas de energia renovável</li>
+                                            <li>Sistemas de gestão de resíduos</li>
+                                            <li>Consultorias ambientais realizadas</li>
+                                            <li>Certificações e reconhecimentos</li>
+                                            <li>Impactos mensuráveis e KPIs</li>
+                                            <li>Depoimentos de clientes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Awards Section -->
+    <section id="awards" class="awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">PRÊMIOS E RECONHECIMENTOS</h2>
+                <p class="section-subtitle">Nossa excelência reconhecida nacional e internacionalmente</p>
+            </div>
+            
+            <div class="awards-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="award-item" data-year="2023">
+                    <div class="award-year">2023</div>
+                    <div class="award-content">
+                        <div class="award-icon">🏆</div>
+                        <h3>Prêmio Sustentabilidade Brasil</h3>
+                        <p>Melhor projeto de restauração ambiental do país</p>
+                        <span class="award-category">Categoria: Inovação Ambiental</span>
+                    </div>
+                </div>
+                
+                <div class="award-item" data-year="2023">
+                    <div class="award-year">2023</div>
+                    <div class="award-content">
+                        <div class="award-icon">🌍</div>
+                        <h3>Green Tech Global Award</h3>
+                        <p>Reconhecimento internacional por tecnologia verde</p>
+                        <span class="award-category">Categoria: Tecnologia Sustentável</span>
+                    </div>
+                </div>
+                
+                <div class="award-item" data-year="2022">
+                    <div class="award-year">2022</div>
+                    <div class="award-content">
+                        <div class="award-icon">⭐</div>
+                        <h3>Empresa do Ano - Meio Ambiente</h3>
+                        <p>Revista Exame - Melhores e Maiores</p>
+                        <span class="award-category">Categoria: Impacto Social</span>
+                    </div>
+                </div>
+                
+                <div class="award-item" data-year="2022">
+                    <div class="award-year">2022</div>
+                    <div class="award-content">
+                        <div class="award-icon">🌱</div>
+                        <h3>Certificação B Corp</h3>
+                        <p>Empresa certificada como B Corporation</p>
+                        <span class="award-category">Categoria: Impacto Social e Ambiental</span>
+                    </div>
+                </div>
+                
+                <div class="award-item" data-year="2021">
+                    <div class="award-year">2021</div>
+                    <div class="award-content">
+                        <div class="award-icon">🏅</div>
+                        <h3>Prêmio Inovação Ambiental</h3>
+                        <p>FIESP - Federação das Indústrias de São Paulo</p>
+                        <span class="award-category">Categoria: Startup Verde</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">O QUE DIZEM NOSSOS CLIENTES</h2>
+                <p class="section-subtitle">Depoimentos de quem confia no nosso trabalho</p>
+            </div>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonial-item active" data-testimonial="1">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <p>"A Aquila Ambiental transformou completamente nossa abordagem ambiental. O projeto de restauração florestal superou todas as expectativas e trouxe resultados mensuráveis em tempo recorde."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Maria Silva</h4>
+                                <span>Diretora de Sustentabilidade - GreenCorp</span>
+                            </div>
+                            <div class="author-avatar">MS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item" data-testimonial="2">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <p>"Profissionalismo excepcional e soluções inovadoras. A consultoria ambiental da Aquila Ambiental nos ajudou a reduzir 40% das nossas emissões de carbono em apenas um ano."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>João Santos</h4>
+                                <span>CEO - Indústrias Sustentáveis</span>
+                            </div>
+                            <div class="author-avatar">JS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item" data-testimonial="3">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <p>"O sistema de gestão de resíduos implementado pela Aquila revolucionou nossa operação. Aumentamos a eficiência em 60% e reduzimos custos significativamente."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Ana Costa</h4>
+                                <span>Gerente Ambiental - EcoLogistics</span>
+                            </div>
+                            <div class="author-avatar">AC</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-navigation">
+                <button class="testimonial-nav-btn active" data-target="1"></button>
+                <button class="testimonial-nav-btn" data-target="2"></button>
+                <button class="testimonial-nav-btn" data-target="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <span class="section-number">05</span>
+                        <h2 class="section-title">NOSSA MISSÃO</h2>
+                    </div>
+                    <p class="about-description">
+                        Somos uma empresa inovadora que combina tecnologia avançada com 
+                        conhecimento científico para criar soluções ambientais eficazes. 
+                        Nossa abordagem integrada garante resultados sustentáveis e 
+                        mensuráveis para nossos clientes.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <h4>Inovação</h4>
+                            <p>Tecnologia de ponta aplicada ao meio ambiente</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Sustentabilidade</h4>
+                            <p>Soluções que respeitam o equilíbrio natural</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Resultados</h4>
+                            <p>Impacto positivo mensurável e duradouro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>VAMOS CONVERSAR</h2>
+                    <p>Pronto para transformar seus desafios ambientais em oportunidades?</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">contato@ecovision.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Telefone</span>
+                            <span class="contact-value">+55 11 9999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Endereço</span>
+                            <span class="contact-value">São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" name="company" placeholder="Empresa">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">ENVIAR MENSAGEM</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AQUILA AMBIENTAL</h3>
+                    <p>Construindo um futuro sustentável</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">Privacidade</a>
+                    <a href="#terms">Termos</a>
+                    <a href="#careers">Carreiras</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aquila Ambiental. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
